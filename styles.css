@@ -84,6 +84,27 @@ select {
   }
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--darker);
+    color: var(--white);
+}
+
+.flex {
+    flex-direction: column;
+}
+
 .bg-gradiant {
-  background-color: var(--gradiant);
+  background: var(--gradiant);
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+.center {
+    text-align: center;
 }
