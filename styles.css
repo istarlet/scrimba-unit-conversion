@@ -5,9 +5,12 @@
   --darker: hsla(0, 0%, 11%, 100%);
   --gradiant: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
 
+  --fw-400: 400;
   --fw-600: 600;
   --fw-800: 800;
 }
+
+/* A Modern CSS Reset https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing rules */
 *,
@@ -84,13 +87,21 @@ select {
   }
 }
 
+/* End A Modern CSS Reset */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+    color: var(--white);
+    background: var(--darker);
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: var(--darker);
-    color: var(--white);
 }
 
 .flex {
