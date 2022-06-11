@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
 :root {
   --white: hsla(0, 0%, 100%, 1);
@@ -110,17 +110,17 @@ h1 {
 }
 
 h2 {
-    font-size: var(--fs-400);
-    font-weight: var(--fw-600);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-600);
 }
 
 .convert-number {
-    font-size: var(--fs-900);
-    font-weight: var(--fw-800);
+  font-size: var(--fs-900);
+  font-weight: var(--fw-800);
 }
 
 .gray {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .card {
@@ -128,6 +128,14 @@ h2 {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.padding-2em {
+    padding: 2em;
+}
+
+.marginbottom-2em {
+    margin-bottom: 2em;
 }
 
 .flex {
